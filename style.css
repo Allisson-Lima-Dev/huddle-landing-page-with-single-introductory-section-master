@@ -94,6 +94,9 @@ header{
 
 @media (max-width: 1200px){
     .container-main{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
         display: flex;
         flex-direction: column;
         height: 100%;
@@ -153,4 +156,16 @@ header{
         margin-top: 0px;
     }
     
+}
+@media(max-width: 475px){
+    .container-main{
+        background-image: url('images/bg-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    header img{
+        width: 50%;
+        margin-top: 0px;
+    }
 }
