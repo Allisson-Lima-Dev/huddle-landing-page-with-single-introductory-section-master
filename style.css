@@ -111,7 +111,7 @@ header{
     }
     header{
         width: 100%;
-        margin-top: 20px;
+        margin-top: 0px;
         margin-left: 0px;
     }
     .icons{
@@ -124,8 +124,8 @@ header{
 @media (max-width: 991px){
     .icons {
         justify-content: space-around;
-        margin-top: 90px;
-        margin-bottom: 60px;
+        margin-top: 70px;
+        margin-bottom: 40px;
         margin-right: 0px;
     }
     .icons i{
@@ -146,10 +146,11 @@ header{
     }
     .container-img{
         height: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
     header img{
         width: 20%;
+        margin-top: 0px;
     }
     
 }
